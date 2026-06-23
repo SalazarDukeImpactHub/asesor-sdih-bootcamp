@@ -77,7 +77,7 @@ Bot en vivo: @SDIH_asesor_bot en Telegram
 ---
 ## Sobre SDIH
 Salazar Duke Impact Hub es una empresa colombiana de formación en IA para emprendedores, desarrolladores y profesionales en LATAM.  
-Sitio: https://salazardukeimpacthubteams.com
+Sitio: https://talleres.salazardukeimpacthubteam.com/
 ---
 ## Licencia
 MIT — Proyecto académico desarrollado como entrega final del Bootcamp de IA.
