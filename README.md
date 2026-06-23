@@ -47,10 +47,13 @@ _Autora: **Jennifer Salazar Duque**_
 
 El bot vive en Telegram. Cuando un usuario le escribe contándole sobre sí mismo (rol, objetivo, nivel), el sistema:
 
-> 1️⃣ **Interpreta** el mensaje y extrae perfil + objetivo + nivel + área de interés
-> 2️⃣ **Predice con ML** (Regresión Logística multiclase) la ruta de aprendizaje más adecuada entre **5 rutas posibles**
-> 3️⃣ **Genera con IA** una recomendación personalizada de 1-2 talleres específicos
-> 4️⃣ **Registra demanda**: si recomienda un taller marcado como _"próximamente"_, lo guarda en un CSV — esto convierte al bot en un **sensor de demanda** que le indica a SDIH qué construir primero
+1️⃣ **Interpreta** el mensaje y extrae perfil + objetivo + nivel + área de interés
+
+2️⃣ **Predice con ML** (Regresión Logística multiclase) la ruta de aprendizaje más adecuada entre **5 rutas posibles**
+
+3️⃣ **Genera con IA** una recomendación personalizada de 1-2 talleres específicos
+
+4️⃣ **Registra demanda**: si recomienda un taller marcado como _"próximamente"_, lo guarda en un CSV — esto convierte al bot en un **sensor de demanda** que le indica a SDIH qué construir primero
 
 ### 🎯 Las 5 rutas de aprendizaje
 
