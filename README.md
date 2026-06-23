@@ -113,7 +113,7 @@ graph LR
 | Atributo | Valor |
 |---|---|
 | **Tamaño del dataset** | 500 registros sintéticos |
-| **Distribuciones** | Basadas en DANE 2024 + MinTIC Colombia |
+| **Distribuciones** | Basadas en DANE 2025 + MinTIC Colombia |
 | **Variables predictoras** | `perfil`, `objetivo`, `nivel`, `area_interes` |
 | **Variable objetivo** | `ruta_recomendada` (multiclase, 5 valores) |
 | **Split** | 80% train · 20% test (estratificado) |

@@ -13,7 +13,7 @@
 | **Autora** | Jennifer Salazar Duque |
 | **Fecha** | 22 de junio de 2026 |
 | **Versión** | v1.0 |
-| **Dataset utilizado** | 500 perfiles sintéticos con distribuciones reales DANE 2024 + MinTIC Colombia |
+| **Dataset utilizado** | 500 perfiles sintéticos con distribuciones reales DANE 2025 + MinTIC Colombia |
 | **Variable objetivo** | `ruta_recomendada` (multiclase: dev, emprendedor, profesional, bienestar, estrategica) |
 | **URL del repositorio** | https://github.com/SalazarDukeImpactHub/asesor-sdih-bootcamp |
 | **Demo en vivo** | [@SDIH_asesor_bot](https://t.me/SDIH_asesor_bot) en Telegram |
@@ -97,7 +97,7 @@ El problema requiere combinar dos capacidades que solo la IA resuelve eficientem
 
 ### Fuente del dataset
 
-**Dataset sintético** generado programáticamente con `random.choices()` usando distribuciones de peso basadas en estadísticas reales del **DANE 2024** (Departamento Administrativo Nacional de Estadística de Colombia) y del **MinTIC** (Medición de la Transformación Digital de las MiPymes).
+**Dataset sintético** generado programáticamente con `random.choices()` usando distribuciones de peso basadas en estadísticas reales del **DANE 2025** (Departamento Administrativo Nacional de Estadística de Colombia) y del **MinTIC** (Medición de la Transformación Digital de las MiPymes).
 
 Esta decisión es deliberada: para un MVP académico, generar datos sintéticos basados en distribuciones reales es **más válido que usar datos reales mal limpiados o no representativos**. Se documenta como roadmap para v2 el reemplazo por datos orgánicos de inscripciones reales.
 
@@ -285,7 +285,7 @@ Limitaciones identificadas durante el desarrollo y pruebas reales:
 
 ### 12.1 Dataset sintético
 
-El dataset son 500 registros generados artificialmente. Aunque las distribuciones siguen estadísticas reales (DANE 2024 + MinTIC), no reemplazan datos orgánicos. **Mitigación v2**: reemplazar dataset sintético por respuestas reales del formulario de inscripción a los talleres SDIH.
+El dataset son 500 registros generados artificialmente. Aunque las distribuciones siguen estadísticas reales (DANE 2025 + MinTIC), no reemplazan datos orgánicos. **Mitigación v2**: reemplazar dataset sintético por respuestas reales del formulario de inscripción a los talleres SDIH.
 
 ### 12.2 Cobertura del modelo en combinaciones raras
 
@@ -332,7 +332,7 @@ En la arquitectura inicial con Flask + Ngrok, las URLs gratuitas de Ngrok cambia
 
 ### Sesgo en el dataset
 
-El dataset sintético se generó con distribuciones de peso que reflejan la realidad demográfica de empresas colombianas (DANE 2024). Sin embargo, está sesgado hacia microempresas (92% del peso), lo cual es representativo pero **podría limitar la efectividad del modelo para grandes empresas**. Documentado como roadmap.
+El dataset sintético se generó con distribuciones de peso que reflejan la realidad demográfica de empresas colombianas (DANE 2025). Sin embargo, está sesgado hacia microempresas (92% del peso), lo cual es representativo pero **podría limitar la efectividad del modelo para grandes empresas**. Documentado como roadmap.
 
 ### Transparencia algorítmica
 
@@ -413,7 +413,7 @@ El video debe cubrir:
 Este proyecto se desarrolló como **adaptación del taller original de "Agente Fitness con IA"** del bootcamp, redirigido a un caso de uso real de mi startup, **Salazar Duke Impact Hub (SDIH)**. La adaptación se hizo manteniendo el 100% del stack técnico requerido (Jupyter, scikit-learn, IA generativa de Hugging Face, integración con Telegram) y agregando valor pedagógico extra:
 
 - **De clasificación binaria a multiclase** (5 rutas en vez de sí/no)
-- **Distribuciones del dataset basadas en DANE 2024** (no random puro)
+- **Distribuciones del dataset basadas en DANE 2025** (no random puro)
 - **Sensor de demanda** integrado (registra talleres próximamente solicitados)
 - **Pivot arquitectónico documentado** (de Botpress a integración directa)
 - **Limitación real detectada en producción** (combinaciones raras) usada como caso de estudio honesto
