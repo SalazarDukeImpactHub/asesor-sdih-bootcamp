@@ -1,0 +1,13 @@
+pandas>=2.0
+scikit-learn>=1.5
+matplotlib>=3.7
+transformers>=4.40
+torch>=2.0
+huggingface_hub>=0.20
+flask>=2.3
+pyngrok>=7.0
+python-telegram-bot>=20.0
+python-dotenv>=1.0
+nest-asyncio>=1.5
+accelerate>=0.20
+requests>=2.30
