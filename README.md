@@ -21,7 +21,7 @@ _Autora: **Jennifer Salazar Duque**_
 [🌐 Sitio Web](https://talleres.salazardukeimpacthubteam.com/) ·
 [💬 Bot en Telegram](https://t.me/SDIH_asesor_bot) ·
 [📄 Documentación Técnica](docs/Documentacion_Tecnica.pdf) ·
-[🎥 Video Demo](#)
+[🎥 Video Demo](https://drive.google.com/file/d/1P8v3Nr2VTg5b-ieB2dmTMOJX9p3-tDon/view?usp=sharing)
 
 </div>
 
@@ -243,7 +243,7 @@ HF_TOKEN = os.getenv("HF_TOKEN")  # Lee de .env, no del código
         comerciales.
 ```
 
-- 🎥 **Video de presentación:** _(pendiente — agregar link cuando esté subido)_
+- 🎥 **Video de presentación:** [Ver en Google Drive](https://drive.google.com/file/d/1P8v3Nr2VTg5b-ieB2dmTMOJX9p3-tDon/view?usp=sharing)
 - 💬 **Probá el bot en vivo:** [@SDIH_asesor_bot](https://t.me/SDIH_asesor_bot)
 
 ---
